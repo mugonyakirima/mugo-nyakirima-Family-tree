@@ -38,6 +38,9 @@ html{
     width: 100%;
     height: 80%;
 }
+a{
+    text-decoration: none;
+}
 
 .main-folder h4{
     display: grid;
