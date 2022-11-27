@@ -1,51 +1,317 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Family Tree</title>
-    <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-/>
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://rawgit.com/LeshikJanz/libraries/master/Bootstrap/baguetteBox.min.css">
+  
+    <title>Family Albums</title>
 </head>
-<body>
-    <div class="container">
-        <h1>Extended Family Tree</h1>
-        <div class="map-holder">
-            <div class="main-folder">
-                <a href="mugo.html">
-                    
-                <img src="images/20180825_124424.jpg" alt="" class="img-holder">
-                
-                <h4>Mugo & Nyakirima Visit At Munyaka Kinangop 2018</h4>
-                </a>
-            </div>
-            
-            <div class="main-folder">
-                <a href="burial.html">
-                <img src="./images/WhatsApp Image 2022-11-27 at 17.04.35.jpeg" alt="" class="img-holder">
-                <h4>Burial</h4></a>
-            </div>
-            <div class="main-folder">
-                <a href="nyakirima.html"> 
-                <img src="./images/LGj3XXtellPX.jpg" alt="" class="img-holder">
-                <h4>Nyakirima Mugo</h4>
-                </a>
-            </div>
-            <div class="main-folder">
-                <img src="./images/oie_uKm06f4gVd9a.jpg" alt="" class="img-holder">
-                <h4>Wanjiru Mugo</h4>
-            </div>   
-            
-            <a href="https://drive.google.com/drive/folders/1OZXXtcuBY8_9bsw9oL7E9AgeddcEkbka">aaaaaaa</a>
- </div>
+  <body>
+    <h1 style="display: grid ; place-items:center;">Album Photos</h1>
+<div class="map-holder">
 
- <a href="https://lh3.googleusercontent.com/CibX5XsAapgUlPK-8JcWQPAozNz620zPANMl_MXOF71V4cySRUKgNJAxWWw3ZpItMru8Ik98NOClyBANRfcp7HckYYaBQbRHAn_inRQe5MYnmddvDoR0v3UmHymdlucr21AaW6yD=w2400?source=screenshot.guru"> <img src="https://lh3.googleusercontent.com/CibX5XsAapgUlPK-8JcWQPAozNz620zPANMl_MXOF71V4cySRUKgNJAxWWw3ZpItMru8Ik98NOClyBANRfcp7HckYYaBQbRHAn_inRQe5MYnmddvDoR0v3UmHymdlucr21AaW6yD=w600-h315-p-k" /> </a>
+  <div class="main-folder">
+    <a href="#nyakirima-images" onclick="hideElement()">
+        
+    <img src="images/20180825_124424.jpg" alt="" class="img-holder">
+    
+    <h4>Mugo & Nyakirima Visit At Munyaka Kinangop 2018</h4>
+    </a>
+</div>
+
+<div class="main-folder">
+  <a href="#burial" onclick="hideElement2()">
+  <img src="./images/WhatsApp Image 2022-11-27 at 17.04.35.jpeg" alt="" class="img-holder">
+  <h4>Burial</h4></a>
+</div>
+
+<div class="main-folder">
+  <a href="#nyakirima-mugo" onclick="hideElement1()"> 
+  <img src="./images/LGj3XXtellPX.jpg" alt="" class="img-holder">
+  <h4>Nyakirima Mugo</h4>
+  </a>
+</div>
+
+<div class="main-folder">
+  <img src="./images/oie_uKm06f4gVd9a.jpg" alt="" class="img-holder">
+  <h4>Wanjiru Mugo</h4>
+</div> 
+
+<div class="main-folder">
+    <a href="#ndambi" onclick="hideElement3()">
+  <img src="./images/Mzee Ndambi Visit 06 july 2019/Mzee Ndambi visit 06 July 2019-1.jpg" alt="" class="img-holder">
+  <h4>Mzee Ndambi Visit 06 july 2019</h4>
+  </a>
+</div>
+
+</div>
+    <section id="nyakirima-images">
+    <div class="container gallery-container">
+    
+        <h1>Mugo & Nyakirima Visit At Munyaka Kinangop 2018</h1>
+    
+        <p class="page-description text-center">Day's Gallery</p>
+        
+        <div class="tz-gallery">
+    
+            <div class="row">
+    
+                <div class="col-sm-12 col-md-4">
+                    <a class="lightbox" href="./images/mugo/20180825_124410.jpg">
+                        <img src="./images/mugo/20180825_124410.jpg" alt="Bridge">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./images/mugo/20180825_124424.jpg">
+                        <img src="./images/mugo/20180825_124424.jpg" alt="Park">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./images/mugo/20180825_124433.jpg">
+                        <img src="./images/mugo/20180825_124433.jpg" alt="Tunnel">
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-8">
+                    <a class="lightbox" href="./images/mugo/20180825_124441.jpg">
+                        <img src="./images/mugo/20180825_124441.jpg" alt="Traffic">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./images/mugo/20180825_124453.jpg">
+                        <img src="./images/mugo/20180825_124501.jpg" alt="Coast">
+                    </a>
+                </div> 
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./images/mugo/20180825_124509.jpg">
+                        <img src="./images/mugo/20180825_124509.jpg" alt="Rails">
+                    </a>
+                </div>
+                 <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./images/mugo/20180825_124515.jpg">
+                        <img src="./images/mugo/20180825_124515.jpg" alt="Rails">
+                    </a>
+                </div>
+                 <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./images/mugo/20180825_124529.jpg">
+                        <img src="./images/mugo/20180825_124529.jpg" alt="Rails">
+                    </a>
+                </div>
+                 <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./images/mugo/20180825_124536.jpg">
+                        <img src="./images/mugo/20180825_124536.jpg" alt="Rails">
+                    </a>
+                </div>
+                 <div class="col-sm-12 col-md-8">
+                    <a class="lightbox" href="./images/mugo/20180825_124545.jpg">
+                        <img src="./images/mugo/20180825_124545.jpg" alt="Rails">
+                    </a>
+                </div>
+                 <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./images/mugo/20180825_124554.jpg">
+                        <img src="./images/mugo/20180825_124554.jpg" alt="Rails">
+                    </a>
+                </div>
+                 <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./images/mugo/20180825_124607.jpg">
+                        <img src="./images/mugo/20180825_124607.jpg" alt="Rails">
+                    </a>
+                </div>
+                 <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./images/mugo/20180825_124614.jpg">
+                        <img src="./images/mugo/20180825_124614.jpg" alt="Rails">
+                    </a>
+                </div>
+                 <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./images/mugo/20180825_124627.jpg">
+                        <img src="./images/mugo/20180825_124627.jpg" alt="Rails">
+                    </a>
+                </div>
+                 <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./images/mugo/20180825_124639.jpg">
+                        <img src="./images/mugo/20180825_124639.jpg" alt="Rails">
+                    </a>
+                </div>
+                 <div class="col-sm-12 col-md-8">
+                    <a class="lightbox" href="./images/mugo/20180825_124648.jpg">
+                        <img src="./images/mugo/20180825_124648.jpg" alt="Rails">
+                    </a>
+                </div>
+                 <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./images/mugo/20180825_124658.jpg">
+                        <img src="./images/mugo/20180825_124658.jpg" alt="Rails">
+                    </a>
+                </div>
+                 <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./images/mugo/20180825_124712.jpg">
+                        <img src="./images/mugo/20180825_124712.jpg" alt="Rails">
+                    </a>
+                </div>
+                 <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./images/mugo/20180825_124726.jpg">
+                        <img src="./images/mugo/20180825_124726.jpg" alt="Rails">
+                    </a>
+                </div>
+                 <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./images/mugo/20180825_124607.jpg">
+                        <img src="./images/mugo/20180825_124607.jpg" alt="Rails">
+                    </a>
+                </div>
+                 <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./images/mugo/20180825_124746.jpg">
+                        <img src="./images/mugo/20180825_124746.jpg" alt="Rails">
+                    </a>
+                </div>
+                 <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./images/mugo/20180825_124759.jpg">
+                        <img src="./images/mugo/20180825_124759.jpg" alt="Rails">
+                    </a>
+                </div>
+                 <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./images/mugo/20180825_124806.jpg">
+                        <img src="./images/mugo/20180825_124806.jpg" alt="Rails">
+                    </a>
+                </div>
+                 <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./images/mugo/20180825_124817.jpg">
+                        <img src="./images/mugo/20180825_124817.jpg" alt="Rails">
+                    </a>
+                </div>
+                 <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./images/mugo/20180825_124846.jpg">
+                        <img src="./images/mugo/20180825_124846.jpg" alt="Rails">
+                    </a>
+                </div>
+                 <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./images/mugo/20180825_124831.jpg">
+                        <img src="./images/mugo/20180825_124831.jpg" alt="Rails">
+                    </a>
+                </div>
+                
+    
+            </div>
+    
+        </div>
+    
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <script src="index.js"></script>
+  </section>
+
+<section id="nyakirima-mugo">
+<div class="container gallery-container">
+    
+        <h1>Nyakirima Mugo</h1>
+    
+        <p class="page-description text-center">Her Pictures</p>
+        
+        <div class="tz-gallery">
+    
+            <div class="row">
+    
+                <div class="col-sm-12 col-md-4">
+                    <a class="lightbox" href="./images/Nyakirima Mugo/Nyakirima Mugo 1966.jpeg">
+                        <img src="./images/Nyakirima Mugo/Nyakirima Mugo 1966.jpeg" alt="Bridge">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./images/Nyakirima Mugo/Nyakirima Mugo _ Gladys Gathigia Munyiri-1 1966.jpeg">
+                        <img src="./images/Nyakirima Mugo/Nyakirima Mugo _ Gladys Gathigia Munyiri-1 1966.jpeg">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./images/Nyakirima Mugo/Nyakirima Mugo _ Gladys Gathigia Munyiri-2 1966.jpeg">
+                        <img src="./images/Nyakirima Mugo/Nyakirima Mugo _ Gladys Gathigia Munyiri-2 1966.jpeg" alt="Tunnel">
+                    </a>
+                </div>           
+    
+            </div>
+    
+        </div>
+    
+    </div>
+</section>
+
+
+<section id="burial">
+<div class="container gallery-container">
+    
+        <h1>Burial</h1>
+    
+        <p class="page-description text-center">Burial Pictures</p>
+        
+        <div class="tz-gallery">
+    
+            <div class="row">
+    
+                <div class="col-sm-12 col-md-8">
+                    <a class="lightbox" href="./images/Burial/WhatsApp Image 2022-11-27 at 17.04.35.jpeg">
+                        <img src="./images/Burial/WhatsApp Image 2022-11-27 at 17.04.35.jpeg" alt="Bridge">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./images/Burial/WhatsApp Image 2022-11-27 at 17.04.36.jpeg">
+                        <img src="./images/Burial/WhatsApp Image 2022-11-27 at 17.04.36.jpeg">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-6">
+                    <a class="lightbox" href="./images/Burial/WhatsApp Image 2022-11-27 at 17.04.37.jpeg">
+                        <img src="./images/Burial/WhatsApp Image 2022-11-27 at 17.04.37.jpeg" alt="Tunnel">
+                    </a>
+                </div> 
+                <div class="col-sm-6 col-md-6">
+                    <a class="lightbox" href="./images/Burial/WhatsApp Image 2022-11-27 at 17.04.7.jpeg">
+                        <img src="./images/Burial/WhatsApp Image 2022-11-27 at 17.04.7.jpeg" alt="Tunnel">
+                    </a>
+                </div> 
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./images/Burial/WhatsApp Image 2022-11-27 at 17.04.jpeg">
+                        <img src="./images/Burial/WhatsApp Image 2022-11-27 at 17.04.jpeg" alt="Tunnel">
+                    </a>
+                </div>           
+    
+            </div>
+    
+        </div>
+    
+    </div>
+</section>
+
+<section id="ndambi">
+<div class="container gallery-container">
+    
+        <h1>Mzee Ndambi</h1>
+    
+        <p class="page-description text-center">Visit 06 july 2019</p>
+        
+        <div class="tz-gallery">
+    
+            <div class="row">
+    
+                <div class="col-sm-12 col-md-8">
+                    <a class="lightbox" href="./images/Mzee Ndambi Visit 06 july 2019/Mzee Ndambi visit 06 July 2019-1.jpg">
+                        <img src="./images/Mzee Ndambi Visit 06 july 2019/Mzee Ndambi visit 06 July 2019-1.jpg" alt="Bridge">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="./images/Mzee Ndambi Visit 06 july 2019/Mzee Ndambi visit 06 July 2019-2.jpg">
+                        <img src="./images/Mzee Ndambi Visit 06 july 2019/Mzee Ndambi visit 06 July 2019-2.jpg">
+                    </a>
+                </div>
+                </div>
+    
+        </div>
+    
+    </div>
+</section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <script>
+        baguetteBox.run('.tz-gallery');
+        
+    </script>
 </body>
+<script src="index.js"></script>
 </html>
