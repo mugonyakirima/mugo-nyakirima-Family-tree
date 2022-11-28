@@ -2,9 +2,14 @@
 * {
   margin: 0;
   padding: 0;
+  
 }
 html{
     scroll-behavior: smooth;
+    color:#fff;
+}
+body {
+  background-color: #666;
 }
 .tree {
   width: max-content;
@@ -24,7 +29,6 @@ html{
   list-style-type: none;
   position: relative;
   padding: 20px 5px 0 5px;
-
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -90,11 +94,31 @@ right connector from last child*/
   height: 20px;
 }
 
+#tree-title{
+  margin: 15px;
+}
+.logo img{
+  width: 20%;
+  height: 20%;
+  margin-left: 80px;
+}
+#mybtn{
+  margin: 30px;
+  padding: 20px;
+  border-radius: 7px;
+  border: none;
+}
+
+#mybtn a {
+  text-decoration:none;
+  color: #000000;
+}
+
 .tree li a {
   border: 1px solid #ccc;
   padding: 5px 10px;
   text-decoration: none;
-  color: #666;
+  color: #fff;
   font-family: arial, verdana, tahoma;
   font-size: 11px;
   display: inline-block;

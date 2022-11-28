@@ -2,6 +2,7 @@ document.getElementById("nyakirima-mugo").style.display = "none";
 document.getElementById("nyakirima-images").style.display = "none";
 document.getElementById("burial").style.display = "none";
 document.getElementById("ndambi").style.display = "none";
+document.getElementById("btn").style.display = "none";
 
 
 function hideElement() {
@@ -10,6 +11,18 @@ function hideElement() {
   document.getElementById("nyakirima-mugo").style.display = "none";
   document.getElementById("burial").style.display = "none";
   document.getElementById("ndambi").style.display = "none";
+  if (innerWidth < 810) {
+    // document.getElementById("albums1").style.display = "none";
+    document.getElementById("albums2").style.display = "none";
+    document.getElementById("albums3").style.display = "none";
+    document.getElementById("albums4").style.display = "none";
+    document.getElementById("albums5").style.display = "none";
+    document.getElementById("albums6").style.display = "none";
+    document.getElementById("albums7").style.display = "none";
+    document.getElementById("albums8").style.display = "none";
+    document.getElementById("album-folder").style.height = "30vh"
+    document.getElementById("btn").style.display = "block";
+  }
 }
   
 function hideElement1() { 
@@ -18,6 +31,18 @@ function hideElement1() {
   document.getElementById("nyakirima-images").style.display = "none";
   document.getElementById("burial").style.display = "none";
   document.getElementById("ndambi").style.display = "none";
+  if (innerWidth < 810) {
+    document.getElementById("albums1").style.display = "none";
+    document.getElementById("albums2").style.display = "none";
+    //document.getElementById("albums3").style.display = "none";
+    document.getElementById("albums4").style.display = "none";
+    document.getElementById("albums5").style.display = "none";
+    document.getElementById("albums6").style.display = "none";
+    document.getElementById("albums7").style.display = "none";
+    document.getElementById("albums8").style.display = "none";
+    document.getElementById("album-folder").style.height = "30vh";
+    document.getElementById("btn").style.display = "block";
+  }
 }
 
 function hideElement2() {
@@ -26,6 +51,18 @@ function hideElement2() {
   document.getElementById("nyakirima-images").style.display = "none";
   document.getElementById("nyakirima-mugo").style.display = "none";
   document.getElementById("ndambi").style.display = "none";
+  if (innerWidth < 810) {
+    document.getElementById("albums1").style.display = "none";
+    //document.getElementById("albums2").style.display = "none";
+    document.getElementById("albums3").style.display = "none";
+    document.getElementById("albums4").style.display = "none";
+    document.getElementById("albums5").style.display = "none";
+    document.getElementById("albums6").style.display = "none";
+    document.getElementById("albums7").style.display = "none";
+    document.getElementById("albums8").style.display = "none";
+    document.getElementById("album-folder").style.height = "30vh";
+    document.getElementById("btn").style.display = "block";
+  }
 }
 
 function hideElement3() {
@@ -34,4 +71,36 @@ function hideElement3() {
   document.getElementById("nyakirima-images").style.display = "none";
   document.getElementById("nyakirima-mugo").style.display = "none";
   document.getElementById("burial").style.display = "none";
+  if (innerWidth < 810) {
+    document.getElementById("albums1").style.display = "none";
+    document.getElementById("albums2").style.display = "none";
+    document.getElementById("albums3").style.display = "none";
+    //document.getElementById("albums4").style.display = "none";
+    document.getElementById("albums5").style.display = "none";
+    document.getElementById("albums6").style.display = "none";
+    document.getElementById("albums7").style.display = "none";
+    document.getElementById("albums8").style.display = "none";
+    document.getElementById("album-folder").style.height = "30vh";
+    document.getElementById("btn").style.display = "block";
+  }
 }
+
+function hideOtherElements1() {
+  if (innerWidth < 810) {
+    document.getElementById("albums1").style.display = "none";
+  }
+}
+
+
+function btnFunction() {
+  window.location.reload();
+}
+
+document.getElementById("title").style.display = "block"
+document.getElementById("title1").style.display = "none";
+
+function titleFunction() {
+  document.getElementById("title1").style.display = "block";
+}
+
+document.getElementsByTagName('a').style.textDecoration = 'none'

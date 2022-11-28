@@ -12,18 +12,23 @@
     <title>Family Albums</title>
 </head>
   <body>
-    <h4><a href="familytree.html">Family Tree</a></h4>
-    <h1 style="display: grid ; place-items:center;">Album Photos</h1>
+    <div id="heading">
+        <div class="logo"><img src="./images/3d-photo-album-png.webp" alt=""></div>
+	<h2 id="tree-title" style="color:#fff; margin-left: 0px;">This is the Extended Family Album</h2>
+<h3 class="header-title"><a href="familytree.html" onclick="titleFunction()" id="title">View Family Tree</a></h3>
+    <h1 class="header-title" onclick="titleFunction2()" id="title1">Album Photos</h1>
+    </div>
+    
 
 <section id="album-folder">
 
 
 <div class="albums">
-    <a href="#nyakirima-images" onclick="hideElement()">
+    <a href="#nyakirima-images" onclick="hideElement()" onclick="hideOtherElements1()" id="albums1">
   <div class="album"> 
     <div class="album__image"><img src="images/20180825_124424.jpg" alt="" class="img-holder"></div>
     <div class="album__details">
-      <h2 class="album__title">Mugo & Nyakirima</h2>
+      <h3 class="album__title">Mugo & Nyakirima</h3>
       <p class="album__artist">2018</p>
       <p class="album__description">
          Visit At Munyaka Kinangop 
@@ -31,11 +36,11 @@
     </div>
   </div>
   </a>
-  <a href="#burial" onclick="hideElement2()">
+  <a href="#burial" onclick="hideElement2()" onclick="hideOtherElements2()" id="albums2">
   <div class="album">
      <div class="album__image"><img src="./images/WhatsApp Image 2022-11-27 at 17.04.35.jpeg" alt="" class="img-holder"></div>
     <div class="album__details">
-      <h2 class="album__title">Burial</h2>
+      <h3 class="album__title">Burial</h3>
       <p class="album__artist"></p>
       <p class="album__description">
         
@@ -43,117 +48,84 @@
     </div>
   </div>
   </a>
+   <a href="#nyakirima-mugo" onclick="hideElement1()" onclick="hideOtherElements3()" id="albums3"> 
   <div class="album">
-    <div class="album__image"></div>
+    <div class="album__image"><img src="./images/LGj3XXtellPX.jpg" alt="" class="img-holder"></div>
     <div class="album__details">
-      <h2 class="album__title">Album Title</h2>
-      <p class="album__artist">Artist Name</p>
+      <h3 class="album__title">Nyakirima Mugo</h3>
+      <p class="album__artist"></p>
       <p class="album__description">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna consequat.
+        
       </p>
     </div>
   </div>
+   </a>
+    <a href="#ndambi" onclick="hideElement3()" onclick="hideOtherElements4()" id="albums4">
+  <div class="album">
+     <div class="album__image"><img src="./images/Mzee Ndambi Visit 06 july 2019/Mzee Ndambi visit 06 July 2019-1.jpg" alt="" class="img-holder"></div>
+    <div class="album__details">
+      <h3 class="album__title">Mzee Ndambi</h3>
+      <p class="album__artist">06 july 2019</p>
+      <p class="album__description">
+        Mzee Ndambi Visit on 6th July 2019
+      </p>
+    </div>
+  </div>
+  </a>
+  <a href="#" onclick="hideElement4()" onclick="hideOtherElements5()" id="albums5">
   <div class="album">
      <div class="album__image"></div>
     <div class="album__details">
-      <h2 class="album__title">Album Title</h2>
-      <p class="album__artist">Artist Name</p>
+      <h3 class="album__title">Album Title</h3>
+      <p class="album__artist">Date</p>
       <p class="album__description">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna consequat.
+        xxxxxxxxxx
       </p>
     </div>
   </div>
-  <div class="album">
-     <div class="album__image"></div>
-    <div class="album__details">
-      <h2 class="album__title">Album Title</h2>
-      <p class="album__artist">Artist Name</p>
-      <p class="album__description">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna consequat.
-      </p>
-    </div>
-  </div>
+  </a>
+  <a href="#" onclick="hideElement5()" onclick="hideOtherElements6()" id="albums6">
   <div class="album">
     <div class="album__image"></div>
     <div class="album__details">
-      <h2 class="album__title">Album Title</h2>
-      <p class="album__artist">Artist Name</p>
+      <h3 class="album__title">Album Title</h3>
+      <p class="album__artist">Date</p>
       <p class="album__description">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna consequat.
+        xxxxxxxxxx
       </p>
     </div>
   </div>
+  </a>
+  <a href="#" onclick="hideElement6()" onclick="hideOtherElements7()" id="albums7">
   <div class="album">
     <div class="album__image"></div>
     <div class="album__details">
-      <h2 class="album__title">Album Title</h2>
-      <p class="album__artist">Artist Name</p>
+      <h3 class="album__title">Album Title</h3>
+      <p class="album__artist">Date</p>
       <p class="album__description">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna consequat.
+        xxxxxxxxxx
       </p>
     </div>
   </div>
+  </a>
+<a href="#" onclick="hideElement7()" onclick="hideOtherElements8()" id="albums8">
   <div class="album">
     <div class="album__image"></div>
     <div class="album__details">
-      <h2 class="album__title">Album Title</h2>
-      <p class="album__artist">Artist Name</p>
+      <h3 class="album__title">Album Title</h3>
+      <p class="album__artist">Date</p>
       <p class="album__description">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna consequat.
+        xxxxxxxxxx
       </p>
     </div>
   </div>
+  </a>
+  <button id="btn" onclick="btnFunction()">Go Back to Albums</button>
 </div>
 
 
     
 </section>
-
-
-<!-- <div class="map-holder">
-
-  <div class="main-folder">
-    <a href="#nyakirima-images" onclick="hideElement()">
-        
-    <img src="images/20180825_124424.jpg" alt="" class="img-holder">
-    
-    
-    <h4>Mugo & Nyakirima Visit At Munyaka Kinangop 2018</h4>
-    </a>
-</div>
-
-<div class="main-folder">
-  <a href="#burial" onclick="hideElement2()">
-  <img src="./images/WhatsApp Image 2022-11-27 at 17.04.35.jpeg" alt="" class="img-holder">
-  <h4>Burial</h4></a>
-</div>
-
-<div class="main-folder">
-  <a href="#nyakirima-mugo" onclick="hideElement1()"> 
-  <img src="./images/LGj3XXtellPX.jpg" alt="" class="img-holder">
-  <h4>Nyakirima Mugo</h4>
-  </a>
-</div>
-
-<div class="main-folder">
-  <img src="./images/oie_uKm06f4gVd9a.jpg" alt="" class="img-holder">
-  <h4>Wanjiru Mugo</h4>
-</div> 
-
-<div class="main-folder">
-    <a href="#ndambi" onclick="hideElement3()">
-  <img src="./images/Mzee Ndambi Visit 06 july 2019/Mzee Ndambi visit 06 July 2019-1.jpg" alt="" class="img-holder">
-  <h4>Mzee Ndambi Visit 06 july 2019</h4>
-  </a>
-</div>
-
-</div> -->
     <section id="nyakirima-images">
     <div class="container gallery-container">
     
