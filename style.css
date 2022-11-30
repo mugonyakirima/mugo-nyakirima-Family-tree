@@ -9,27 +9,36 @@
   box-sizing: inherit;
 }
 html {
-  
   scroll-behavior: smooth;
 }
 
-.logo img{
+.logo img {
   width: 20%;
   height: 20%;
   margin-left: 80px;
 }
 
-#heading{
-  
+#btn{
+  margin-bottom: 20px !important;
+}
+
+#heading {
   padding: 10px !important;
 }
 
-.header-title a{
+.header-title a {
   text-decoration: none;
   color: #fff !important;
 }
-
-.header-title{
+.new-body {
+ background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  background-position: 0px 0px;
+  background-repeat: repeat;
+  
+  opacity: 1;
+}
+.header-title {
   width: max-content;
   border: 1px solid #fff;
   color: #fff;
@@ -158,7 +167,7 @@ body {
   background: linear-gradient(to right, #171718, #312f2f);
 }
 
-#album-folder{
+#album-folder {
   height: 95vh;
 }
 
@@ -166,7 +175,6 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   grid-gap: 10px;
-  
 }
 
 .album {
@@ -208,7 +216,7 @@ body {
   font-size: 0.9em;
 }
 
-button{
+button {
   width: 15em;
   margin: auto !important;
   margin-top: 30px !important;

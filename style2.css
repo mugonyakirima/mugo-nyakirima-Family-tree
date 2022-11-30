@@ -1,0 +1,63 @@
+.new-body {
+  background: url("http://orig12.deviantart.net/a72c/f/2014/120/8/c/abstract_geometric_low_poly___wallpaper_by_mcfrolic-d7gjq9d.jpg");
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  
+}
+
+.centerImg {
+  height: 100%;
+  background: url(https://m2.behance.net/rendition/pm/17815857/disp/bc25da2a3eb9b7efcf74e3153d40ef04.png)
+    no-repeat fixed center center;
+  opacity: 1;
+  animation: lowPoly 8.3s ease-in infinite;
+}
+
+@keyframes lowPoly {
+  25% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.container {
+  height: 800px;
+}
+
+#typewriter {
+  font-size: 150%;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 1.5px;
+  width: 100%;
+  position: absolute;
+  top: 10%;
+  display: flex;
+  justify-content: center;
+  font-weight: 900 !important;
+  /* transform: translateX(-50%) translateY(-490%); */
+}
+
+.button-holder{
+    display: flex;
+   justify-content: center;
+}
+
+button {
+width: fit-content;
+padding: 10px;
+border: none;
+border-radius: 5px;
+font-weight: 800;
+color: #000;
+margin-left: 20px;
+}
+

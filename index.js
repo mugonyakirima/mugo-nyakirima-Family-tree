@@ -2,7 +2,7 @@ document.getElementById("nyakirima-mugo").style.display = "none";
 document.getElementById("nyakirima-images").style.display = "none";
 document.getElementById("burial").style.display = "none";
 document.getElementById("ndambi").style.display = "none";
-document.getElementById("btn").style.display = "none";
+document.getElementById("btn1").style.display = "none";
 
 
 function hideElement() {
@@ -21,7 +21,8 @@ function hideElement() {
     document.getElementById("albums7").style.display = "none";
     document.getElementById("albums8").style.display = "none";
     document.getElementById("album-folder").style.height = "30vh"
-    document.getElementById("btn").style.display = "block";
+    document.getElementById("btn1").style.display = "block";
+    document.getElementById("btn").style.display = "none";
   }
 }
   
@@ -41,7 +42,8 @@ function hideElement1() {
     document.getElementById("albums7").style.display = "none";
     document.getElementById("albums8").style.display = "none";
     document.getElementById("album-folder").style.height = "30vh";
-    document.getElementById("btn").style.display = "block";
+    document.getElementById("btn1").style.display = "block";
+    document.getElementById("btn").style.display = "none";
   }
 }
 
@@ -61,7 +63,8 @@ function hideElement2() {
     document.getElementById("albums7").style.display = "none";
     document.getElementById("albums8").style.display = "none";
     document.getElementById("album-folder").style.height = "30vh";
-    document.getElementById("btn").style.display = "block";
+    document.getElementById("btn1").style.display = "block";
+    document.getElementById("btn").style.display = "none";
   }
 }
 
@@ -81,7 +84,8 @@ function hideElement3() {
     document.getElementById("albums7").style.display = "none";
     document.getElementById("albums8").style.display = "none";
     document.getElementById("album-folder").style.height = "30vh";
-    document.getElementById("btn").style.display = "block";
+    document.getElementById("btn1").style.display = "block";
+    document.getElementById("btn").style.display = "none";
   }
 }
 
@@ -93,7 +97,12 @@ function hideOtherElements1() {
 
 
 function btnFunction() {
+  window.open("index.html", "_self");
+  
+}
+function btnFunction1() {
   window.location.reload();
+  
 }
 
 document.getElementById("title").style.display = "block"
@@ -103,4 +112,5 @@ function titleFunction() {
   document.getElementById("title1").style.display = "block";
 }
 
-document.getElementsByTagName('a').style.textDecoration = 'none'
+document.getElementsByTagName('a').style.textDecoration = 'none';
+
