@@ -2,17 +2,19 @@
 * {
   margin: 0;
   padding: 0;
-  
 }
-html{
-    scroll-behavior: smooth;
-    color:#fff;
+html {
+  scroll-behavior: smooth;
+  color: #fff;
 }
 body {
   background-color: #666;
 }
 .tree {
   width: max-content;
+  display: flex;
+  align-items: center;
+  height: 100svh;
 }
 .tree ul {
   padding-top: 20px;
@@ -94,15 +96,15 @@ right connector from last child*/
   height: 20px;
 }
 
-#tree-title{
+#tree-title {
   margin: 15px;
 }
-.logo img{
+.logo img {
   width: 20%;
   height: 20%;
   margin-left: 80px;
 }
-#mybtn{
+#mybtn {
   margin: 30px;
   padding: 20px;
   border-radius: 7px;
@@ -110,7 +112,7 @@ right connector from last child*/
 }
 
 #mybtn a {
-  text-decoration:none;
+  text-decoration: none;
   color: #000000;
 }
 
